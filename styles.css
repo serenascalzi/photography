@@ -1,0 +1,155 @@
+@media only screen and (min-width: 601px) {
+
+* {
+	margin:0;
+	padding:0;
+}
+
+html {
+	box-sizing:border-box;
+	color:rgb(255,255,255);
+	background-color:rgb(153,153,153);
+}
+
+*, *:before, *:after {
+	box-sizing:inherit;
+}
+
+.container {
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	width:90%;
+	margin:10px auto;
+}
+
+.header > h1 {
+	padding:10px;
+	font-family:'Bungee Outline', cursive;
+	font-size:3em;
+	font-weight:normal;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+.photos {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	margin-bottom:10px;
+}
+
+.photos > div {
+	width:30%;
+	margin:10px 0;
+}
+
+.photos > div > img {
+	width:100%;
+}
+
+.link {
+	text-decoration:none;
+	color:rgb(255,255,255);
+}
+
+.social > p {
+	font-family:'Open Sans', sans-serif;
+	font-size:1em;
+	line-height:1.5em;
+	text-align:center;
+}
+
+.social > p > a:hover {
+	color:rgb(245,211,0);
+}
+
+.footer > p {
+	padding:10px;
+	font-family:'Open Sans', sans-serif;
+	font-size:0.9em;
+	line-height:1.4em;
+	text-align:center;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+* {
+	margin:0;
+	padding:0;
+}
+
+html {
+	box-sizing:border-box;
+	color:rgb(255,255,255);
+	background-color:rgb(153,153,153);
+}
+
+*, *:before, *:after {
+	box-sizing:inherit;
+}
+
+.container {
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	width:90%;
+	margin:10px auto;
+}
+
+.header > h1 {
+	padding:10px;
+	font-family:'Bungee Outline', cursive;
+	font-size:2.5em;
+	font-weight:normal;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+.photos {
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	margin-bottom:0;
+}
+
+.photos > div {
+	width:100%;
+	margin:10px 0;
+}
+
+.photos > div > img {
+	width:100%;
+}
+
+.link {
+	text-decoration:none;
+	color:rgb(255,255,255);
+}
+
+.social > p {
+	font-family:'Open Sans', sans-serif;
+	font-size:1em;
+	line-height:1.5em;
+	text-align:center;
+}
+
+.social > p > a:hover {
+	color:rgb(245,211,0);
+}
+
+.footer > p {
+	padding:10px;
+	font-family:'Open Sans', sans-serif;
+	font-size:0.9em;
+	line-height:1.4em;
+	text-align:center;
+}
+
+}
